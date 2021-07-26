@@ -71,4 +71,3 @@ class Server:
         print(self.path)
 serv = Server(8080)
 serv.Server()
-serv.AddPath("/salut", "index.html")
