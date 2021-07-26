@@ -1,4 +1,10 @@
-<h1 align="center">VueSolitaire</h1>
+<h1 align="center">NWSS</h1>
+<h2 align="center">
+
+  a very fast easy ligth, and vanilla python3 web server
+  
+</h2>
+
 <h2 align="center">
 
 [![Mentioned in Awesome Vue.js](https://awesome.re/mentioned-badge.svg)](https://github.com/ExCLoudVision)
