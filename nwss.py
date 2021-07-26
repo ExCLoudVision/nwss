@@ -16,13 +16,11 @@ class Server:
             path = ""
             for re in req.split("\n"):
                 pathx = re.split(" ")
-                print(pathx)
                 try:
                     if pathx[0] == "GET":
                         path = pathx[1]
                 except:
                     pass
-            print(path)
             if self.WAF(req):
                 try:
                     http = open(self.path[path], "r", encoding="utf-8").read().encode()
