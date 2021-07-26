@@ -1,2 +1,30 @@
-# nwss
-a simple fast vanilla and ligt web server in python
+<h1 align="center">VueSolitaire</h1>
+<h2 align="center">
+
+[![Mentioned in Awesome Vue.js](https://awesome.re/mentioned-badge.svg)](https://github.com/ExCLoudVision)
+
+</h2>
+
+<p align="center">
+
+<img src="https://img.shields.io/static/v1?label=made%20with&message=the%20%3C3&color=critical" >
+  
+<img src="https://img.shields.io/static/v1?label=python&message=100&color=blue">
+</p>
+<p align="center">
+<img src="https://media.discordapp.net/attachments/862807476277346356/869354366140842024/nwss_logo.png?width=597&height=597">
+</p>
+
+## Project setup
+
+```bash
+git clone https://github.com/ExCLoudVision/nwss  
+```
+
+## Simple Example
+
+```py
+import nwss
+serv = nwss.Server(80)
+serv.AddPath("/example", "example.html")
+```
