@@ -66,4 +66,4 @@ class Server:
             return False
     def AddPath(self, path, filelink):
         self.path[f"{path}"] = filelink
-        print(self.path)
+
