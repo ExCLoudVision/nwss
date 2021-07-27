@@ -37,5 +37,7 @@ git clone https://github.com/ExCLoudVision/nwss
 ```py
 import nwss
 serv = nwss.Server(80)
-serv.AddPath("/example", "example.html")
+def example(*args):
+  return "Hellow World"
+serv.AddPath("/example", example)
 ```
