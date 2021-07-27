@@ -67,5 +67,3 @@ class Server:
     def AddPath(self, path, filelink):
         self.path[f"{path}"] = filelink
         print(self.path)
-serv = Server(8080)
-serv.Server()
