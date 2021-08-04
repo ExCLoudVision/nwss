@@ -40,4 +40,5 @@ serv = nwss.Server(80)
 def example(*args):
   return "Hellow World"
 serv.AddPath("/example", example)
+serv.run()
 ```
